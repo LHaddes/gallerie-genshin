@@ -1,0 +1,40 @@
+body{
+  background-color: #1D5D9B;
+  font-family: Catamaran, sans-serif;
+}
+
+h1{
+  color: #F4D160;
+  text-align: center;
+}
+
+h2{
+  color: #FBEEAC;
+  text-align: center;
+}
+
+.container{
+  border: 2px solid #75C2F6;
+  margin-bottom: 30px;
+  padding: 5px;
+  display: block;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px 10px;
+}
+
+.img-container > img{
+  width: 300px;
+}
+
+.img-container > p {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
