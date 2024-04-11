@@ -11,10 +11,12 @@ h1{
 h2{
   color: #FBEEAC;
   text-align: center;
+  font-size: 3rem;
 }
 
 .container{
-  border: 2px solid #75C2F6;
+  border: 7px solid;
+  border-radius: 50px;
   margin-bottom: 30px;
   padding: 5px;
   display: block;
@@ -25,16 +27,107 @@ h2{
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 10px 10px;
+  gap: 5px 5px;
 }
 
 .img-container > img{
-  width: 300px;
+  width: 350px;
 }
 
 .img-container > p {
   color: white;
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: center;
   font-weight: bold;
+}
+
+.pyro {
+  background-color: #FFA970;
+  border-color: white;
+}
+
+.pyro p {
+  color: #FF6640;
+}
+
+.pyro h2 {
+  color: #FF6640;
+}
+
+.hydro {
+  background-color: #08E4FF;
+  border-color: white;
+}
+
+.hydro p {
+  color: #00C0FF;
+}
+
+.hydro h2 {
+  color: #00C0FF;
+}
+
+.anemo {
+  background-color: #A2EECA;
+  border-color: white;
+}
+
+.anemo p {
+  color: #33D7A0
+}
+
+.anemo h2 {
+  color: #33D7A0
+}
+
+.electro {
+  background-color: #DFBBFF;
+  border-color: white;
+}
+
+.electro p {
+  color: #CC80FF;
+}
+
+.electro h2 {
+  color: #CC80FF;
+}
+
+.dendro {
+  background-color: #AFE92A;
+  border-color: white;
+}
+
+.dendro p {
+  color: #9BE53D;
+}
+
+.dendro h2 {
+  color: #9BE53D;
+}
+
+.cryo {
+  background-color: #C9FBFB;
+  border-color: white;
+}
+
+.cryo p {
+  color: #7AF2F2;
+}
+
+.cryo h2 {
+  color: #7AF2F2;
+}
+
+.geo {
+  background-color:#F5D760;
+  border-color: white;
+}
+
+.geo p {
+  color: #FFB00D;
+}
+
+.geo h2 {
+  color: #FFB00D;
 }
