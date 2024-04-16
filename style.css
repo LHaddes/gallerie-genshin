@@ -141,3 +141,27 @@ h2{
 .geo h2 {
   color: #FFB00D;
 }
+
+.modal {
+  display: none;
+  position: static;
+  width: 100vw;
+  height: 100vh;
+  background-color: #00000066;
+}
+
+.big-image {
+  position: relative;
+
+  max-width: 1600px;
+  min-width: 600px;
+}
+
+.close {
+  color: white;
+  position: relative;
+  top: 20px;
+  
+  font-size: 20px;
+  font-weight: bold;
+}
